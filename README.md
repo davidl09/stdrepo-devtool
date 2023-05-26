@@ -25,7 +25,7 @@ The generic folder structure looks like this: (click 'view raw file' if it does 
 
 
 To compile the example, or your own code in main/src/ after running the stdrepo command, run the following:
-  $ cd build
-  $ cmake ..
-  $ cd ..
+  $ cd build                                                                                                                                                   
+  $ cmake ..                                                                                                                                                   
+  $ cd ..                                                                                                                                                       
   $ ./bin/{projectname}
