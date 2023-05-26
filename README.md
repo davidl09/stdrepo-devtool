@@ -9,18 +9,18 @@ Run this script in the desired parent directory of your new C/C++ project to cre
 
 The generic folder structure looks like this: (click 'view raw file' if it does not display properly)
 
-{repo name}
-    |
-    |build  #miscellaneous cmake/makefiles
-    |bin  #compiled binaries are placed here
-    |   |{project name} #executable named with project name
-    |main
-        |include #add your .h / .hpp header files here
-        |src
-        |   |CMakeLists.txt
-        |   |main.c #example hello world program
-        |
-        |CMakeLists.txt
+{repo name}                                                                                                                                                     
+    |                                                                                                                                                       
+    |build  #miscellaneous cmake/makefiles                                                                                                                     
+    |bin  #compiled binaries are placed here                                                                                                                   
+    |   |{project name} #executable named with project name                                                                                                     
+    |main                                                                                                                                                       
+        |include #add your .h / .hpp header files here                                                                                                      
+        |src                                                                                                                                                
+        |   |CMakeLists.txt                                                                                                                             
+        |   |main.c #example hello world program                                                                                                               
+        |                                                                                                                                                   
+        |CMakeLists.txt                                                                                                                                     
 
 
 
