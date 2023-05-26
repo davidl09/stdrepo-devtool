@@ -7,7 +7,7 @@ Run this script in the desired parent directory of your new C/C++ project to cre
 3. Open the bin directory in a terminal and run >$ chmod +x stdrepo
 4. Call >$ stdrepo from anywhere to create C/CPP project folder structures!
 
-The generic folder structure looks like this:
+The generic folder structure looks like this: (click 'view raw file' if it does not display properly)
 
 {repo name}
     |
