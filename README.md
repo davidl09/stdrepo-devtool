@@ -8,7 +8,7 @@ Run this script in the desired parent directory of your new C/C++ project to cre
 4. Call >$ stdrepo from anywhere to create C/CPP project folder structures!
 
 The generic folder structure looks like this: (click 'view raw file' if it does not display properly)
-
+<div>
 {repo name}
     |
     |build  #miscellaneous cmake/makefiles
@@ -21,7 +21,7 @@ The generic folder structure looks like this: (click 'view raw file' if it does 
         |   |main.c #example hello world program
         |
         |CMakeLists.txt
-     
+</div>
 To compile the example, or your own code in main/src/ after running the stdrepo command, run the following:
   >$ cd build
   >$ cmake ..
