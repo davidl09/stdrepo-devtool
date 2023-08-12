@@ -1,0 +1,4 @@
+#!/bin/bash
+#Install script for debian-based distros
+sudo chmod +x stdrepo.py
+sudo mv stdrepo.py /usr/local/bin/stdrepo
