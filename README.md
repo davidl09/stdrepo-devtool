@@ -2,10 +2,8 @@
 Run this script in the desired parent directory of your new C/C++ project to create a standard folder structure, complete with pre-written cmake files.
 
 (Linux)
-1. Place the script in your home directory's bin/ or .local/bin/ folder.
-2. Make sure the bin directory is added to your path. (run >$ echo $(path) to check PATH variables)
-3. Open the bin directory in a terminal and run >$ chmod +x stdrepo
-4. Call >$ stdrepo from anywhere to create C/CPP project folder structures!
+1. run the install script
+2. done
 
 The generic folder structure looks like this: (click 'view raw file' if it does not display properly) 
 
