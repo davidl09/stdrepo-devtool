@@ -16,7 +16,7 @@ if len(sys.argv) < 3:
 else: pname = sys.argv[2]
 
 if len(sys.argv) < 4:
-	lang = input("Missing language, enter C or CPP to choose.").lower()
+	lang = input("Missing language, enter C or CPP to choose.\n").lower()
 else: lang = sys.argv[3].lower()
 
 if lang != "c" and lang != "cpp":
@@ -50,7 +50,7 @@ srccmake = open(mainsrc + "/CMakeLists.txt", "w")
 mainexpl = open(mainsrc + f"/main.{lang}", "w")
 
 #write to cmake files
-rootcmake.write(f"project({pname})\ncmake_minimum_required(VERSION {cmv})\nset({langstand})\nadd_subdirectory(main)")
+rootcmake.write(f"cmake_minimum_required(VERSION {cmv})\nproject({pname}\nVERSION 0.1\nLANGUAGES C CXX\n)\nset({langstand})\nadd_subdirectory(main)")
 maincmake.write(f"add_subdirectory(src)")
 srccmake.write("include_directories(${" + pname + "_SOURCE_DIR}/main/include)\n")
 srccmake.write("set(EXECUTABLE_OUTPUT_PATH ${" + pname + "_SOURCE_DIR}/bin)\n")
